@@ -74,7 +74,7 @@ func (d *Pan115) getFiles(fileId string) ([]FileObj, error) {
 }
 
 const (
-	appVer = "2.0.3.6"
+	appVer = "2.3.0.7"
 )
 
 func (c *Pan115) DownloadWithUA(pickCode, ua string) (*driver115.DownloadInfo, error) {
